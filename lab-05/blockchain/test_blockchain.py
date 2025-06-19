@@ -26,5 +26,5 @@ for block in my_blockchain.chain:
     print("Hash:", block.hash)
     print("-----------------------------------")
 
-# Check if the blockchain is valid
+# Check if the blockchain is valid..
 print("Is Blockchain Valid:", my_blockchain.is_chain_valid(my_blockchain.chain))
